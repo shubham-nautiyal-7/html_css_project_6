@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'roboto' , sans-serif;
+    font-weight: 320;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+
+}
+section{
+    scroll-margin: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #270082;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    box-shadow: 5px 6px 7px rgba(1,1,1,0.6);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+nav ul{
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+    margin-left: 900px;
+    margin-top: -20px;
+}
+nav ul li{
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 200px;
+
+    
+}
+.Hero_sec{
+    background-image: url(image/hero_image.png);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    align-items: center;
+}
+.Hero_sec .container{
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+}
+.Hero_sec h1{
+    font-size: 96px;
+}
+.Hero_sec h3{
+    font-size: 32px;
+}
+.music_sec{
+    padding-top: 50px;
+    background-color: #281154;
+}
+.music_sec .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    color:white;
+    
+}
+.i-image{
+    margin-top: -400px;
+    position: relative;
+    top:400px;
+}
+.primery_btn{
+    background-color: #dc0000;
+    color: white;
+    
+}
+.sec_btn{
+    background-color: #270082;
+    color: white;
+   
+}
+.last_btn{
+    background-color: #270082;
+    color: white;
+    margin-left: 500px;
+
+}
+.about_music{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap:50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.video_section{
+    height: 800px;
+    background-image:url(image/video.png);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    gap:30px;
+    color: white;
+}
+.video_section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top:-200px;
+}
+.Hero_sec ,
+.video_section{
+ position: relative;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.gift_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap:50px;
+    margin-right: 50px;
+}
+.gift_container{
+   margin-left: 80px;
+    gap:20px;
+
+}
+.foot_uper{
+    background-color:#1b0058 ;
+    padding: 20px;
+
+}
+.foot_uper .container{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.foot_uper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.foot_lower{
+    padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color:  #270082;
+}
+.gift_sec {
+    scroll-margin: 120px;
+  }
